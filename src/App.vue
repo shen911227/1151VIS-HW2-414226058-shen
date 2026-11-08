@@ -1,7 +1,8 @@
 <script setup>
-import WeatherHeatmap from './components/WeatherHeatmap.vue'
+import Dynamicvisualization from './components/Dynamicvisualization.vue'
 </script>
 
 <template>
-  <WeatherHeatmap />
+  <Dynamicvisualization />
 </template>
+
