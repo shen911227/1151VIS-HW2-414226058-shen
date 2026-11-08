@@ -1,5 +1,24 @@
-# Vue 3 + Vite
+# 全球人口資料動態視覺化
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+[影片連結](https://youtu.be/fyEYkZ-cnK4).
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+製作流程與操作說明
+- 資料處理： 從 Our World in Data 讀取 CSV，篩選出 1950～2023 年的國家人口資料，按照人口數排序，然後取前 10 名。
+- 視覺化設計： 左側使用動態長條圖呈現人口排名，右側使用表格呈現人口成長分析(排列順序為人口增加數由高到低)。
+- 互動操作： 提供播放、暫停、重置及年份滑桿，切換及觀察不同年份。
+
+數據集
+- 來源： Our World in Data – Population
+- 說明： 使用 World Population Prospects 2024 人口統計資料，呈現各國每年人口總數
+- 期間： 1950～2023 年
+- 範圍： 具有有效三碼國家代碼的國家，每年取人口最多的前 10 名。
+
+資料分析
+- 透過長條圖觀察各國人口規模及排名變化。
+- 透過人口增加數比較相鄰年度的人口增減。
+- 透過成長率了解不同國家的人口相對成長速度。
+
+分析結果
+- 印度超越中國，2023 年印度成為全球人口最多的國家。
+- 人口總數較高的國家，每年增加的人口不一定比較多。
+- 而人口增加數較高的國家，不一定具有較高的成長率。
