@@ -3,7 +3,7 @@
 <img width="1684" height="856" alt="螢幕擷取畫面 2026-11-08 205531" src="https://github.com/user-attachments/assets/ebdef98e-c730-43c3-bcec-70cf4c78ead2" />
 <img width="1681" height="847" alt="螢幕擷取畫面 2026-11-08 205523" src="https://github.com/user-attachments/assets/541e4120-3991-442d-81c3-16384a3847a8" />
 
-[影片連結](https://youtu.be/fyEYkZ-cnK4).
+[影片連結](https://youtu.be/oF1HQfQO-6Q).
 
 製作流程與操作說明
 - 資料處理： 從 Our World in Data 讀取 CSV，篩選出 1950～2023 年的國家人口資料，按照人口數排序，然後取前 10 名。
