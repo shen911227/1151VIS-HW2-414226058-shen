@@ -188,7 +188,7 @@ const updateChart = (year) => {
     .attr('font-size', '12px')
     .text(d => d3.format(',')(d.volume))
 
-  // Update + Enter 合併
+  // Update + Enter
   const allBars = enterBars.merge(bars)
 
   allBars.transition().duration(duration).ease(d3.easeLinear)
